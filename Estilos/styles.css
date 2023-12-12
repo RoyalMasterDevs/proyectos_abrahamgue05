@@ -1,11 +1,55 @@
-body{
-    background-color: darkolivegreen;
+/*Globals*/
+*{
     box-sizing: border-box;
 }
 
-.icon{
-    font-family: sans-serif;
+body{
+    background-color: #f9dcc4;
 }
+/*End globals*/
+
+
+/*Navegation bar*/
+.nav{
+    background: linear-gradient(90deg, #4831d4 67%, #ccf381 33%);
+    height: 30rem;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    padding: 1rem 5rem 1rem 5rem; 
+    list-style-type: none;
+    justify-content: start;
+    width: 400px; 
+}
+
+li, a{
+    color: #f2e8cf;
+    text-decoration: none;
+}
+
+nav p{
+    color: black;
+}
+
+nav img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 7rem 6.5rem 3rem 0rem;
+}
+/*End navegation bar*/
+
 
 .Presentacion{
     font-family: sans-serif;
