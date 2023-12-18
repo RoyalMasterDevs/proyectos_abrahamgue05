@@ -7,6 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="dropdown">
+        <button class="dropbtn"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg></button>
+        <div class="dropdown-content">
+          <a href="#certificatios">Certifications</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact_me">Conmtact me</a>
+        </div>
+    </div>      
+<main>   
     <section id="About">
         <div>
             <h1>Full Stack Developer
@@ -21,16 +32,6 @@
         <div class="profilepic">
                 <img id="profilepic" src="../Img/Profilepicture3.jpg" alt="Profilepic">
         </div>
-            <div class="dropdown">
-                <button class="dropbtn"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                  </svg></button>
-                <div class="dropdown-content">
-                  <a href="#certificatios">Certifications</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
-                </div>
-            </div> 
     </section>
     <section class="h2">
         <h2>Front-end</h2>
@@ -45,9 +46,25 @@
             <li>HTML y CSS- Guayerd and beta hub</li>
             <li>More coming soon..</li>
         </ul>
-
+    </section> 
+    <section id="projects">
+        <div class="projectsimg">
+            <img src="../Img/Gym supplemnts.jpg">
+            <img src="../Img/Profilepicture3.jpg">
+            <img src="../Img/background.jpg">
+            <img src="../Img/birdman.jpg">
+            <img src="../Img/forzagen.jpg">
+            <img src="../Img/sup.jpeg">
+    </div>
     </section>
-<main>      
+    <section id="contact_me">
+        <h5>Contact me</h5>
+        <form action="abrahamgue05@gmail.com" method="post" enctype="text/plain">
+            <label>Nombre<input type="text"></label>
+            <label>E-mail<input type="email"></label>
+            <label>Comment:<input type="text"></label>
+        </form>
+    </section>
 </main>
 <footer></footer>
 </body>
