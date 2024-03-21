@@ -203,4 +203,8 @@ p, a, li{
     .Learning{
         grid-column: span 2;
     }
+
+    .contact{
+        grid-column: span 2;
+    }
  }
