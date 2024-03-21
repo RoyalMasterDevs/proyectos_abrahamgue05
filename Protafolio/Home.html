@@ -3,80 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Estilos/styles.css">
-    <title>Document</title>
+    <!--Css-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./Estilos/styles.css">
+    <!--End Css-->
+    <title>Portafolio</title>
 </head>
 <body>
-    <div class="dropdown">
-        <button class="dropbtn"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg> 
-        </button>
-    <div class="dropdown-content">
-          <a href="#certifications">Certifications</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact_me">Contact me</a>
-    </div>
-    </div>      
-<main>   
-    <section id="about_me">
-        <div>
-            <h1>Full Stack Developer
-                <br>
-                <span  id="both">Front-end and back-end, I can do both.</span>   
-            </h1>
-            <p id="comment">Committed to perpetual learning, 
-                my current state reflects a dedication to improvement. 
-                I invite you to acknowledge not where I am, 
-                but the ongoing trajectory of my professional evolution.
-            </p>
-        </div>
-        <div class="profilepic">
-                <img id="profilepic" src="../Img/Profilepicture3.jpg" alt="Profilepic">
-        </div>
-    </section>
-    <section class="h2">
-            <h2>Front-end</h2>
-            <p id="h2p">I specialize in front-end development with a continuous learning approach. While not claiming expertise, my commitment to ongoing learning ensures a dynamic skill set in this domain</p>
-            <h3>Back-end</h3>
-            <p id="h3p">I am actively engaged in back-end development, navigating the intricacies of this field with a commitment to continuous learning. While not proclaiming mastery, my dedication ensures an evolving proficiency in back-end technologies.</p>
-    </section>
-    <section id="certifications">
-            <h4>Certifications</h4>
-                <ul>
-                    <li>Responsive Web Design Certification- <a class="certification" target="_blank" href="https://www.freecodecamp.org/certification/AbrahamGue/responsive-web-design">FreeCodeCamp</a></li>
-                    <li>HTML y CSS- Guayerd and beta hub</li>
-                    <li>More coming soon..</li>
-                </ul>
-    </section> 
-    <section id="projects">
-        <div class="projectsimg">
-            <img src="../Img/Gym supplemnts.jpg">
-            <img src="../Img/Profilepicture3.jpg">
-            <img src="../Img/background.jpg">
-            <img src="../Img/birdman.jpg">
-            <img src="../Img/forzagen.jpg">
-            <img src="../Img/sup.jpeg">
-        </div>
-    </section>
-    <section id="contact_me">
-            <h5>Contact me</h5>
-    <form action="abrahamgue05@gmail.com" method="post" enctype="text/plain">
-            <label><input class="form" type="text" placeholder="Name"></label>
-            <label><input class="form" type="email" placeholder="Email"></label>
-            <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
-            <button id="fsend" type="submit">Send</button>
-    </form>
-        <div class="social">
-            <a target="_blank" href="https://www.twitch.tv/abrahamdev05"><img src="../Img/twitch-icon-filled-256.png"></a>
-            <a target="_blank" href="https://github.com/abrahamgue05"><img src="../Img/github-icon-png-29.jpg"></a>
-            <a target="_blank" href="https://www.instagram.com/abraham.dev05/"><img src="../Img/instagram-icon-filled-256.webp"></a>
-        </div>
-        <div class="redirect">
-                <a href="#certifications">Certifications</a>
-                <a href="#projects">Projects</a>
-                <a href="#about_me">About me</a>
-        </div>      
-    </section>
-</main>
+
+    <main class="container">
+        <article class="card developer">
+            <div class="photo">
+                <img src="./Img/Profilepicture3.jpg" alt="Profile Pic">
+                <h1>¡Hola! Soy Abraham</h1>
+            </div>
+            <div class="Me">
+                <p>
+                    Estudiante de ingeniería en sistemas computacionales en el segundo 
+                    semestre. Mi pasión por la tecnología me ha llevado al mundo del desarrollo web y la 
+                    programación. Con habilidades sólidas en HTML, CSS y JavaScript, me enfoco en crear 
+                    experiencias digitales excepcionales y funcionales. He ampliado mis habilidades con cursos en 
+                    desarrollo full stack y de aplicaciones, demostrando mi compromiso con el aprendizaje continuo. 
+                    Estoy emocionado por contribuir con soluciones innovadoras y creativas al mundo tecnológico. 
+                    Siempre estoy listo para nuevos desafíos y oportunidades emocionantes.
+                </p>
+            </div>
+        </article>
+        <article class="card  Learning">
+            <h1>Educación y Formación</h1>
+            <ul>
+                <li>Ingeniería en Sistemas Computacionales</li>
+                <li>Segundo Semestre</li>
+                <li>Universidad Euro Hispanomericana</li>
+            </ul>
+            <h1>Cursos y Certificaciones:</h1>
+            <ul>
+                <li>Curso Full Stack (Romac)</li>
+                <li>Curso de Frontend (Guayerd)</li>
+                <li>Curso de Responsive Web Design (Free Code Camp)</li>
+                <li>Curso de Desarrollo de Aplicaciones (Romac)</li>
+                <li>Curso de Prompt Engineering (Crack the Code)</li>
+            </ul>
+        </article>
+        <article class="card contact">
+            <img src="./Img/@.png" alt="@">
+            <p>
+                ¡Espero con interés escuchar de ti y trabajar 
+                juntos en emocionantes proyectos!
+            </p> 
+            <div class="contacts">
+                <a href="mailto:abrahamgue05@gmail.com"><i class='bx bx-envelope bx-lg'></i></a>
+                <a href="https://www.linkedin.com/in/eduardo-abraham-l%C3%B3pez-guerrero-ba92332a6/"><i class='bx bxl-linkedin bx-lg'></i></a>
+                <a href="https://github.com/abrahamgue05"><i class='bx bxl-github bx-lg'></i></a>
+                <a href="https://www.instagram.com/abraham.dev05/"><i class='bx bxl-instagram bx-lg'></i></a>
+                <a href="https://www.twitch.tv/abrahamdev05"><i class='bx bxl-twitch bx-lg'></i></a>
+                <a href="https://www.youtube.com/@abraham.dev05"><i class='bx bxl-youtube bx-lg'></i></a>
+            </div>
+        </article>
+        <article class="card skills">
+                <h1>Skills</h1>
+                <div class="techs">
+                    <a href=""><i class='bx bxl-html5 bx-lg'></i></a>
+                    <a href=""><i class='bx bxl-css3 bx-lg'></i></a>
+                    <a href=""><i class='bx bxl-javascript bx-lg'></i></a>
+                    <a href=""><i class='bx bxl-c-plus-plus bx-lg'></i></a>
+                </div>
+        </article>
+        <article class="card project">
+            <h1>Proyectos</h1>
+            <div class="projects">
+                <a href=""><i class='bx bx-dumbbell bx-lg'></i></a>
+                <a href=""><i class='bx bxs-music bx-lg'></i></a>
+            </div>
+        </article>
+    </main>
 </body>
 </html>
